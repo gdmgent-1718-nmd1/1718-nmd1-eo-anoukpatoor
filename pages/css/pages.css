@@ -10,9 +10,355 @@ body {
     line-height: 1.5em;
     padding: 25px;
 }
+h1 {
+    color: #951B81;
+    text-align: center;
+ background-color:#FFED00;
+ padding: 50px;
+ font-family: 'Raleway', sans-serif;
+ font-size:50pt; 
+}
 
+p {
+    font-family: verdana;
+    font-size: 20px;
+   
+}
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
+}
+ul.a {
+    list-style-type: circle;
+}
+
+    /*CSS voor scenario */
+.AfbeeldingNathan{
+    float: left;
+
+}
+.TekstNathan{
+ background-color: #008D36;
+ height: 298px;
+ padding: 1px;
+ color: white;
+}
+.blokformaat{
+    height: 350px;
+}
+.TekstTessa{
+    float: left;
+    background-color:#FD02A6;
+ height: 298px;
+ padding: 1px;
+ color: white;
+ width: 765px
+}
+.AfbeeldingTessa{
+  float: left;
+}
+.AfbeeldingEtienne{
+    float: left;
+}
+.tekstEtienne{
+    background-color:#FD8902;
+ height: 298px;
+ padding: 1px;
+ color: white;
+}
+.TekstMonica{
+    float: left;
+    background-color:#02B0FD;
+ height: 298px;
+ padding: 1px;
+ color: white;
+ width: 732px
+}
+.AfbeeldingMonica{
+    float: left;
+}
+
+div.circlecolor1 {
+    background-color:#FDC302;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50%;
+}
+h2{
+    font-size:50px; 
+}
+
+div.circlecolor2 {
+    background-color:#951B81;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+div.circlecolor3 {
+    background-color:#02B0FD;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+div.circlecolor4 {
+    background-color:#FD02A6;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50%;
+}
+div.circlecolor5 {
+    background-color:#FD8902;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50%;
+}
+div.circlecolor6{
+    background-color:#FFED00;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50%;
+}
+div.circlecolor7{
+    background-color:#008D36;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+div.tekst1{
+    font-family: Impact;
+font-weight:bold;
+font-size:40pt;
+}
+
+div.tekst2{
+    font-family:'Raleway', sans-serif;
+font-weight:bold;
+font-size:30pt;
+}
+div.tekst3{
+    font-family:'Raleway:800',sans-serif;
+font-weight:bold;
+font-size:30pt;
+}
+div.tekst4{
+    font-size:30pt;   
+}
+
+button.Zaterdag{
+background-color: #FFED00;
+border-radius:100px 100px;
+height:75px;
+width: 239px;
+border: none;
+color: #951B81;
+font-family:'Raleway', sans-serif;
+text-align: center;
+font-size: 28pt;
+
+}
+.Zaterdag:hover {
+    background-color: #951B81; /* Green */
+    color: #FFED00;; 
+}
+
+button.Zondag{
+    background-color:#951B81;
+    border-radius:100px 100px;
+    height:75px;
+    width: 239px;
+    border: none;
+    color:#FFED00;
+    font-family:'Raleway', sans-serif;
+    font-size: 28pt;
+    }
+.Zondag:hover {
+background-color: #FFED00; /* Green */
+color: #951B81;
+    }
+
+button.cirkel{
+    background-color: #02B0FD;
+border-radius:50%;
+height:44px;
+width: 44px;
+border: none;
+color: white;
+font-family:'Raleway', sans-serif;
+font-size: 28pt;
+padding: 0px;
+}
+.cirkel:hover{
+    background-color: white;
+    color: #02B0FD;
+}
+
+ .home{
+        background-color:#FD02A6; /* pink */
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        width:154px;
+        height:73px;
+        border: none;
+        font-family:'Raleway', sans-serif;
+        font-weight:bold;
+
+    }
+ .Line-up{
+        background-color:#FD8902; /* oranje */
+        color: white;
+        padding: 15px 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        border: none;
+        width:154px;
+        height:84px;
+        font-family:'Raleway', sans-serif;
+        font-weight:bold;
+       }
+    .tickets{
+        background-color:#02B0FD; /* blauw */
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        border: none;
+        width:154px;
+        height:59px;
+        font-family:'Raleway', sans-serif;
+        font-weight:bold;
+
+       }
+
+  .activiteiten{
+        background-color:#FD02A6; /* roze */
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        border: none;
+        width:191px;
+        height:84px;
+        font-family:'Raleway', sans-serif;
+        font-weight:bold;
+       }
+
+     .infonavigatie{
+        background-color:#FD8902; /* oranje */
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        border: none;
+        width:134px;
+        height:59px;
+        font-family:'Raleway', sans-serif;
+        font-weight:bold;
+       }
+       .contact{
+        background-color:#02B0FD; /* blauw */
+        color:white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        border: none;
+        width: 146,2px;
+        width:154px;
+        height:73px;
+        font-family:'Raleway', sans-serif;
+        font-weight:bold;
+    
+       }
+.contact:hover{
+background-color:#951B81;
+color: white;
+
+}
+.infonavigatie:hover{
+    background-color:#951B81;
+    color: white;
+    
+    }
+
+.activiteiten:hover{
+        background-color:#951B81;
+        color: white;
+        
+        }
+
+        .tickets:hover{
+            background-color:#951B81;
+            color: white;
+            
+            }
+            .Line-up:hover{
+                background-color:#951B81;
+                color: white;
+                
+                }
+                .home:hover{
+                    background-color:#951B81;
+                    color: white;
+                    
+                    }
+div.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    padding: 15px 20px;
+    background-color: #FFED00;
+    color: #951B81;
+    border: none;
+}
+
+.navigatiebalk{
+    height: 200px;
+}
+
+
+
+hr{
+    color: #951B81;
+        border:none;
+        border-top:1px solid #951B81;
+        height:5px;
+    
 }
 
 /* Voeg jouw css hieraan toe */
